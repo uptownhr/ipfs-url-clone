@@ -28,4 +28,4 @@ last=${hash_list##*$'\n'}
 
 hash=$(echo $last | awk '{ print $2; }')
 
-echo "hash: $hash"
+echo "http://ipfs.io/ipfs/$hash"
